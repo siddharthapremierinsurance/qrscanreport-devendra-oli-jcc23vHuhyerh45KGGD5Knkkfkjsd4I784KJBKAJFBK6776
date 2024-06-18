@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 /*main header css*/
+p{
+    flex-wrap: nowrap;
+}
 .header{
     display:flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     gap: 20px;
     align-items: center;
     margin-top: 20px;
